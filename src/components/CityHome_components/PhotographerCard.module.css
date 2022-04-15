@@ -1,0 +1,144 @@
+/* body {
+  margin: 0px;
+  padding: 0px;
+  background: #f1f1f1;
+  font-family: arial;
+  box-sizing: border-box;
+} */
+.card-container {
+  width: 350px;
+  height: 480px;
+  background: #fff;
+  border-radius: 6px;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  box-shadow: 0px 1px 10px 1px #00000044;
+  overflow: hidden;
+  display: inline-block;
+  background-color: #eff3fa;
+  margin-bottom: 3em;
+}
+/* .upper-container {
+  height: 150px;
+  background: #7f00ff;
+} */
+.image-slider__container {
+  /* max-width: 800px; */
+  width: 100%;
+  height: 45%;
+  /* border: 7px solid #fff; */
+  /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15); */
+  overflow: hidden;
+  background: #7f00ff;
+}
+.image-box {
+  display: flex;
+  height: 100%;
+  width: 400%;
+  justify-content: space-between;
+}
+.image-box {
+  animation: imgBox 20s linear infinite;
+}
+@keyframes imgBox {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+.image-box:hover {
+  animation-play-state: paused;
+}
+.image-box .image {
+  width: calc(100% - 100px);
+  /* width: 100%; */
+  height: 100%;
+}
+.image-box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.image-container {
+  background: white;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  padding: 5px;
+  transform: translate(8em, -2em);
+}
+.image-container__img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.lower-container {
+  height: 35%;
+  /* background: #fff; */
+  padding: 20px;
+  padding-top: 0;
+  text-align: center;
+}
+.lower-container h3,
+h4 {
+  box-sizing: border-box;
+  line-height: 0.6;
+  font-weight: lighter;
+}
+.lower-container h4 {
+  color: #007bff;
+  /* opacity: 0.6; */
+  font-weight: bold;
+  margin: 0.8em 0 0.8em 0;
+}
+.lower-container p {
+  font-size: 16px;
+  color: gray;
+  margin-bottom: 30px;
+}
+.lower-container .btn {
+  padding: 12px 20px;
+  background: #7f00ff;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease-in;
+}
+.lower-container .btn:hover {
+  background: transparent;
+  color: #7f00ff;
+  border: 2px solid #7f00ff;
+}
+
+@media (max-width: 500px) {
+  .card-container {
+    width: 100%;
+  }
+  .lower-container h3,
+  h4 {
+    font-size: 1.5rem;
+  }
+  .image-container {
+    transform: translate(10em, -2em);
+  }
+}
+
+@media (max-width: 450px) {
+  .image-container {
+    transform: translate(9em, -2em);
+  }
+}
+
+@media (max-width: 400px) {
+  .image-container {
+    transform: translate(7em, -2em);
+  }
+}

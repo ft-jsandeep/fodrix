@@ -1,0 +1,10 @@
+.section_sitemap_css {
+  border-bottom: 1px solid #ccc;
+  margin-top: 1em;
+}
+
+@media screen and (max-width: 1200px) {
+  section .col-md-3 {
+    border: none;
+  }
+}

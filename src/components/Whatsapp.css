@@ -1,0 +1,14 @@
+
+#navright{
+    display:inline-block;
+    position: fixed;
+    top: 80vh;
+    right: 10px;
+    z-index: 1000000000;
+    cursor: pointer;
+}
+
+#wicon{
+    font-size: 30px;
+    color: blue;
+}

@@ -1,0 +1,23 @@
+.register-photo {
+  background: #f1f7fc;
+}
+.image-holder img {
+  margin-left: 200px;
+}
+.register-photo .form-container {
+  display: table;
+  max-width: 900px;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+input.register_main {
+  padding: 30px;
+  width: 75%;
+  margin-left: 40px;
+}
+#btnbookregister {
+  width: 50%;
+  margin-left: 70px;
+}

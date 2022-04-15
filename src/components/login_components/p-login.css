@@ -1,0 +1,154 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.background_login {
+  background: url("../../All_Images/backgroundlogin.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: calc(100vh - 60px);
+}
+
+.form_plogin {
+  position: relative;
+  transform: translate(0%, 10%);
+  background: #ffffff;
+  opacity: 99%;
+  max-width: 500px;
+  margin-left: 30%;
+  padding: 10px 35px 20px 45px;
+  text-align: center;
+}
+
+.image-section_plogin {
+  margin: 0px;
+  width: 150px;
+}
+.image-section_plogin img {
+  width: 100px;
+  height: auto;
+}
+.p1_plogin {
+  font-size: 35px;
+  padding: 1px;
+  text-align: center;
+}
+.p2_plogin {
+  font-size: 20px;
+  padding: 1px;
+  text-align: left;
+}
+.form_plogin input {
+  outline: 0;
+  border-radius: 10px;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form_plogin input:hover {
+  transition: all 1s ease 0s;
+}
+.form_plogin input:focus {
+  transition: all 1s ease 0s;
+}
+.form_plogin button {
+  text-transform: uppercase;
+  outline: 0;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to right,
+    rgb(155, 169, 212),
+    #1e90ff,
+    rgb(155, 169, 212)
+  );
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+  -webkit-transform-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transform-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.form_plogin button:hover,
+.form_plogin button:active,
+.form_plogin button:focus {
+  background-image: linear-gradient(
+    to right,
+    rgb(155, 169, 212),
+    #1e90ff,
+    rgb(155, 169, 212)
+  );
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all 0.3s ease 0.3s;
+}
+.form_plogin .message_plogin {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 18px;
+}
+.form_plogin .message_plogin a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+.btn_plogin {
+  font-size: 18px;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  float: center;
+  color: #1e90ff;
+  border: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  -webkit-transform-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transform-property: box-shadow, transform;
+  -o-transition-property: box-shadow, transform;
+}
+.btn_plogin:hover,
+.btn_plogin:focus,
+.btn_plogin:active {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.button1_plogin {
+  font-size: 18px;
+  width: 300px;
+  padding: 10px 30px;
+  background: #1e90ff;
+  text-align: center;
+  text-decoration: none;
+  float: center;
+  margin-left: 50px;
+  color: #fff;
+  border: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  -webkit-transform-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transform-property: box-shadow, transform;
+  -o-transition-property: box-shadow, transform;
+}
+.button1_plogin:hover,
+.button1_plogin:focus,
+.button1_plogin:active {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}

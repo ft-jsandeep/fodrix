@@ -1,0 +1,18 @@
+[{      "city":"Agra",
+        "imgsrc": "/static/media/loktak lake.dbf16220.jpg",
+        "title": "Loktak Lake, the largest wetland in India!",
+        "description": "Manipur a city lying in the northeastern part of India is a place with the most incredible natural beauty and tons of attractive sites.This natural beauty spreads in green forests and stretched lakes in the city.One such attraction is the Loktak lake.The Loktak lake is situated in Moirang."
+    },
+
+    {"city":"Mumbai",
+        "imgsrc": "/static/media/roopkund.685014eb.jpg",
+        "title": " A Mysterious Himalayan Trek, Roopkund Lake!",
+        "description": "The Himalayas, a place filled with beauty and glory, houses many treasures all over its land.These stunning heights astonish its visitors with unbelievable views all from over the top.Travellers from all over the world travel to Uttarakhand just to enjoy trekking the mountains and meadows."
+    },
+
+    {   "city":"Delhi",
+        "imgsrc": "/static/media/Imambara.e3ce341e.jpg",
+        "title": "Bara Imambara, the mysterious maze!",
+        "description": "Lucknow, the glory of Awadh and the land of Nawabs, is a grand fascination with travelling.This tourist destination in Uttar Pradesh has all you need for a vacation amongst the city 's royalties, from its Lucknowi heritage to its delicious food to its ancient era landmarks and current architectural."
+    }
+]
