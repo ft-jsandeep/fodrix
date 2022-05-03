@@ -320,8 +320,8 @@
 
 @media (max-width: 500px) {
   .main-container div .img_become {
-    width: 60vw;
-    height: 60vh;
+    width: 50vw;
+    height: 50vh;
   }
 
   .left_become {

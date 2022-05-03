@@ -15,7 +15,7 @@ export default function Topfooter() {
                   <Link to="/HowItWorks">How it works</Link>
                 </li>
                 <li>
-                  <Link to="/photoshoot_services">Services</Link>
+                  <Link to="/portfolio">Portfolio</Link>
                 </li>
                 <li>
                   <Link to="/packages">Packages</Link>

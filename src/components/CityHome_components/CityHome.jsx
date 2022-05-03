@@ -1,14 +1,11 @@
 import React, { useState, useEffect } from "react";
 import "./City_Home.css";
-import Images from "../../All_Images/Images";
 import { Link } from "react-router-dom";
 import swal from "sweetalert";
 import { useHistory } from "react-router";
 import { useDispatch } from "react-redux";
 
-import Photographer from "./photographer.json";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Carousel } from "react-bootstrap";
 import CallbackPopup from "../../mainUtils/CallbackPopup";
 import FeaturedPhotographer from "./FeaturedPhotographer";
 export default function CityHome() {

@@ -100,6 +100,15 @@ const Images = {
   dubai: require("../All_Images/Blog 1/dubai.jpg").default,
 
   hamburger: require("./hamburgerIcon.png").default,
+
+  Bark: require("./PartnersLogo/WEBP/Bark.webp").default,
+  Canvera: require("./PartnersLogo/WEBP/Canvera.webp").default,
+  Sortlist: require("./PartnersLogo/WEBP/Sortlist.webp").default,
+  SulekhaLogo: require("./PartnersLogo/WEBP/sulekha-logo.webp").default,
+  Tripadvisor: require("./PartnersLogo/WEBP/Tripadvisor.webp").default,
+  Trustpilot: require("./PartnersLogo/WEBP/Trustpilot.webp").default,
+  WedMeGood: require("./PartnersLogo/WEBP/Wed me good.webp").default,
+  WeddingWire: require("./PartnersLogo/WEBP/Wedding wire.webp").default,
 };
 
 export default Images;

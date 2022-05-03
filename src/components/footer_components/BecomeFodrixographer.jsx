@@ -139,7 +139,7 @@ export default function BecomeFodrixographer() {
             </div>
             <div>
               <h4>Excited to show your city:</h4>
-              <p>
+              <p className="becomFodrixographer-p__font">
                 You truly love your city and have knowledge about all the
                 tourist and photoshoot spots of your city so that travellers get
                 an awesome experience.
@@ -156,7 +156,7 @@ export default function BecomeFodrixographer() {
             </div>
             <div>
               <h4>Professionalism:</h4>
-              <p>
+              <p className="becomFodrixographer-p__font">
                 {" "}
                 Arrive the shoot location 30 min prior to the shoot time. Have a
                 professional behaviour towards the clients. Submit the
@@ -176,7 +176,7 @@ export default function BecomeFodrixographer() {
             </div>
             <div>
               <h4>Photography equipments:</h4>
-              <p>
+              <p className="becomFodrixographer-p__font">
                 As fodrixographer, you are required to have your own
                 professional photography equipments, including backup batteries,
                 memory card_content and camera.
@@ -193,7 +193,7 @@ export default function BecomeFodrixographer() {
             </div>
             <div>
               <h4>Stay updated:</h4>
-              <p>
+              <p className="becomFodrixographer-p__font">
                 Be up to date about latest tourist and photoshoot spots,
                 photography gears and photography styles.
               </p>

@@ -14,6 +14,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import CallbackPopup from "../mainUtils/CallbackPopup";
 import { useHistory } from "react-router";
+import OurPartners from "./homePage_components/OurPartners";
 export default function Home() {
   const [popupDisplay, setPopupDisplay] = useState(false);
   // const [popupDisplayCounter, setPopupDisplayCounter] = useState(
@@ -219,6 +220,7 @@ export default function Home() {
       {/* <BlogsHome /> */}
       {/* <Quote /> */}
       <CallbackPopup popup={true} callBackForm={true} />
+      <OurPartners />
       <Testimonials />
       <Footercity />
     </>

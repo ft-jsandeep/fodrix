@@ -218,6 +218,11 @@
     width: 18%;
     margin-left: 42%;
   }
+
+  .card-description,
+  .touristSpots {
+    font-size: 14px;
+  }
 }
 
 .featuredPhotographer-cityHome__container {

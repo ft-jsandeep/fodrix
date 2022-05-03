@@ -318,3 +318,9 @@ img.mb-5.abutusshow {
 .our_team .team_member .member_img:hover .social_media {
   transform: scale(1);
 }
+
+@media (max-width: 540px) {
+  .aboutus_para {
+    font-size: 14px;
+  }
+}

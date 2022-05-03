@@ -73,4 +73,8 @@ img-become__new .right_part {
   .right_part .part2 .content {
     width: 100%;
   }
+
+  .becomFodrixographer-p__font {
+    font-size: 14px;
+  }
 }

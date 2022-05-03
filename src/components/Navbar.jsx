@@ -80,9 +80,8 @@ class NavBar extends React.Component {
           </button>{" "}
           <div id="collapse" className={"collapse navbar-collapse " + show}>
             <div id="right" className="navbar-nav bg-light">
-              <Link className="nav-item nav-link " to="/portfolio">
-                {" "}
-                Portfolio{" "}
+              <Link className="nav-item nav-link " to="/photoshoot_services">
+                Services
               </Link>{" "}
               <Link className="nav-item nav-link" to="/packages">
                 {" "}

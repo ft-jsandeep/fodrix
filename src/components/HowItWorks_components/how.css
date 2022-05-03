@@ -1,7 +1,7 @@
 .how {
   background-color: aliceblue;
   max-width: 92%;
-  min-height: 35 0px;
+  min-height: 350px;
   /* margin: -5%; */
 }
 
@@ -173,7 +173,7 @@ li {
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    height: 608px;
+    height: 808px;
   }
   /* .img_icon {
     height: 42px;
